@@ -7,16 +7,16 @@
         </RouterView>
         
         <NavBar>
-            <NavigationBarItem icon="uil uil-home" 
+            <NavigationBarItem icon="fas fa-home" 
                                :selected="$route.name == 'home'"
                                @click="$router.replace({name:'home'})"/>
-            <NavigationBarItem icon="uil uil-pizza-slice" 
+            <NavigationBarItem icon="fas fa-concierge-bell" 
                                :selected="$route.name == 'info'"
                                @click="$router.replace({name:'info'})"/>
-            <NavigationBarItem icon="uil uil-heart-alt" 
+            <NavigationBarItem icon="fas fa-heart" 
                                :selected="$route.name == 'favorites'"
                                @click="$router.replace({name:'favorites'})"/>
-            <NavigationBarItem icon="uil uil-setting" 
+            <NavigationBarItem icon="fas fa-cog" 
                                :selected="$route.name == 'settings'"
                                @click="$router.replace({name:'settings'})"/>
         </NavBar>
