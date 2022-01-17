@@ -1,5 +1,5 @@
 <template>
-    <nav class="fixed bottom-0 h-14 z-50 bg-black flex w-full left-0 rounded-2xl">
+    <nav class="fixed bottom-0 h-16 z-50 bg-primary-black rounded-full flex w-full left-0">
         <slot/>
     </nav>
 </template>
