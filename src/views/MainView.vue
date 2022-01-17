@@ -10,7 +10,7 @@
             <NavigationBarItem icon="uil uil-home" 
                                :selected="$route.name == 'home'"
                                @click="$router.replace({name:'home'})"/>
-            <NavigationBarItem icon="uil uil-info-circle" 
+            <NavigationBarItem icon="uil uil-pizza-slice" 
                                :selected="$route.name == 'info'"
                                @click="$router.replace({name:'info'})"/>
             <NavigationBarItem icon="uil uil-heart-alt" 
