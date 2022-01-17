@@ -1,4 +1,5 @@
 import { RouteRecordRaw, createRouter, createWebHashHistory } from 'vue-router';
+import MainView from "@/views/MainView.vue";
 import HomeView from "@/views/HomeView.vue";
 import InforScreenView from "@/views/InfoScreenView.vue";
 import ConfigView from "@/views/ConfigView.vue";
@@ -8,7 +9,7 @@ const routes: Array<RouteRecordRaw> = [
     {
         path: '/',
         name: 'Home',
-        component: HomeView,
+        component: MainView,
         children:[
             {
                 path:'',

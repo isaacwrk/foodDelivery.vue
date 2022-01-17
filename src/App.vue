@@ -1,5 +1,7 @@
 <template>
-    <h1 class="bg-red-200 text-white text-center"> initial </h1>
+    <div class="min-h-screen">
+        <router-view/>
+    </div>
 </template>
 
 <script lang="ts">

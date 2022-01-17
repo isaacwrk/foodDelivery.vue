@@ -1,5 +1,5 @@
 <template>
-    <h1>home</h1>
+    <h2>home :d</h2>
 </template>
 
 <script lang='ts'>
