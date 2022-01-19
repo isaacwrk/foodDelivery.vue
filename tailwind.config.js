@@ -3,6 +3,9 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
+            fontFamily:{
+                sans:['Poppins']
+            },
             colors:{
                 "primary-black":"#333536",
                 "blacked-gray" : "#545C67",

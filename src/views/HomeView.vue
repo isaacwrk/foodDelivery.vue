@@ -1,9 +1,11 @@
 <template>
-    <div class="flex justify-between">
-        <MenuList/>
-        <ProfileIcon icon="uil uil-user"/>
+    <div>
+        <div class="flex justify-between">
+            <MenuList/>
+            <ProfileIcon icon="uil uil-user"/>
+        </div>
+        <h1 class="mt-8 ml-5 text-2xl font-semibold text-primary-black">Good Food<br> Fast Delivery</h1>   
     </div>
-    
 </template>
 
 <script lang='ts'>
