@@ -1,6 +1,6 @@
 <template>
     <div class="flex items-center justify-center flex-1">
-        <i :class="[icon, {'bg-white rounded-full h-10 w-10 pt-1 text-center text-primary-black':selected}]" class="text-xl  text-gray-300 transition-all duration-1000"></i>
+        <i :class="[icon, {'bg-white rounded-full h-10 w-10 pt-1 text-center text-primary-black':selected}]" class="text-xl  text-gray-300 transition-all duration-250"></i>
     </div>
 </template>
 
