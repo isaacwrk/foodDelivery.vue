@@ -4,7 +4,7 @@
             <MenuList/>
             <ProfileIcon icon="uil uil-user"/>
         </div>
-        <h1 class="mt-8 ml-5 text-2xl font-semibold text-primary-black">Good Food<br> Fast Delivery</h1>   
+        <h1 class="mt-8 ml-5 text-2xl font-bold text-primary-black">Good Food<br> Fast Delivery.</h1>   
     </div>
 </template>
 
