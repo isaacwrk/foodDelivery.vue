@@ -1,5 +1,5 @@
 <template>
-    <div class="h-40 w-17 flex flex-1 items-center justify-center">
+    <div class="flex flex-1 items-center justify-center" :class="[{h,w}]">
         <p class="text-lg bg-background-gray text-primary-gray transition-all duration-250" :class="{'bg-primary-black text-white' : selected}">{{title}}</p>
     </div>
 </template>
@@ -15,6 +15,14 @@ const FoodType = defineComponent({
         },
         selected:{
             type:Boolean,
+            required:true
+        },
+        h:{
+            type:String,
+            required:true  
+        },
+        w:{
+            type:String,
             required:true
         }
     }
