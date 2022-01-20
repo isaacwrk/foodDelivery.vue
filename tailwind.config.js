@@ -13,7 +13,8 @@ module.exports = {
                 "primary-gray" : "#89898A"
             },
             width:{
-                '81':'21rem' 
+                '81':'21rem',
+                '17':'4.35rem' 
             }
         },
     },
