@@ -1,6 +1,6 @@
 <template>
-    <div class="flex flex-1 mt-10 justify-center">
-        <div class="flex border-2 rounded w-72 h-10">
+    <div class="flex flex-1 mt-7 justify-items-start ml-5">
+        <div class="flex border-2 rounded-xl w-81 h-10">
             <button class="flex items-center justify-center px-4">
                 <i :class="icon" class="text-gray-400"></i>
             </button>

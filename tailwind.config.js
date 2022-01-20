@@ -11,6 +11,9 @@ module.exports = {
                 "blacked-gray" : "#545C67",
                 "background-gray" :"#F3F3F3",
                 "primary-gray" : "#89898A"
+            },
+            width:{
+                '81':'21rem' 
             }
         },
     },
