@@ -1,5 +1,5 @@
 <template>
-    <div class="items-center text-center inline-block" :class="[h,w]">
+    <div class="items-center text-center inline-block h-10" :class="w">
         <div class="text-md bg-background-gray text-primary-gray rounded-2xl transition-all duration-250 hover:bg-primary-black hover:text-white">
             <p>{{title}}</p>
         </div>
@@ -14,10 +14,6 @@ const FoodType = defineComponent({
         title:{
             type:String,
             required: true
-        },
-        h:{
-            type:String,
-            required:true  
         },
         w:{
             type:String,
