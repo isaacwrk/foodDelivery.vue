@@ -1,6 +1,8 @@
 <template>
-    <div class="flex flex-1 items-center justify-center" :class="[{h,w}]">
-        <p class="text-lg bg-background-gray text-primary-gray transition-all duration-250" :class="{'bg-primary-black text-white' : selected}">{{title}}</p>
+    <div class="items-center text-center inline-block" :class="[h,w]">
+        <div class="text-md bg-background-gray text-primary-gray rounded-2xl transition-all duration-250 hover:bg-primary-black hover:text-white">
+            <p>{{title}}</p>
+        </div>
     </div>
 </template>
 
@@ -12,10 +14,6 @@ const FoodType = defineComponent({
         title:{
             type:String,
             required: true
-        },
-        selected:{
-            type:Boolean,
-            required:true
         },
         h:{
             type:String,

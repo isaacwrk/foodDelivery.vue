@@ -6,6 +6,9 @@
         </div>
         <h1 class="mt-8 ml-5 text-2xl font-bold text-primary-black">Good Food<br> Fast Delivery.</h1>   
         <SearchBar/>
+        <Carrousel class="mt-6 ml-5">
+            <FoodType title="all" w="w-17" h="h-10"/>
+        </Carrousel>
     </div>
 </template>
 
@@ -14,12 +17,16 @@ import { defineComponent } from 'vue';
 import MenuList from '@/components/MenuList.vue';
 import ProfileIcon from '@/components/ProfileIcon.vue';
 import SearchBar from "@/components/SearchBar.vue";
+import Carrousel from '@/components/Carrousel.vue';
+import FoodType from '@/components/FoodType.vue';
 
 const HomeView = defineComponent({
     components:{
         MenuList,
         ProfileIcon,
-        SearchBar
+        SearchBar,
+        Carrousel,
+        FoodType
     }
 });
 
