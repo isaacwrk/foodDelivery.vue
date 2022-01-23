@@ -1,8 +1,8 @@
 <template>
     <div>
         <h1 class="ml-5">{{title}}</h1>
-        <div class="w-36 h-53 bg-background-gray">
-
+        <div class="w-36 h-53 bg-background-gray mt-1">
+            i
         </div>
     </div>
 </template>

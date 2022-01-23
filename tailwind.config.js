@@ -10,7 +10,8 @@ module.exports = {
                 "primary-black":"#333536",
                 "blacked-gray" : "#545C67",
                 "background-gray" :"#F3F3F3",
-                "primary-gray" : "#89898A"
+                "primary-gray" : "#89898A",
+                "secondary-black" :"#525B66"
             },
             width:{
                 '81':'21rem',
