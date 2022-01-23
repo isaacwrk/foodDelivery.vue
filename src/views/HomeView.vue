@@ -11,6 +11,7 @@
             <FoodType title="Fast Food" w="w-32"/>
             <FoodType title="Bakery" w="w-32"/>
             <FoodType title="Japanese" w="w-32"/>
+            <FoodType title="Healthy" w="w-32"/>
         </Carrousel>
     </div>
 </template>
