@@ -1,7 +1,7 @@
 <template>
-    <div class="items-center text-center inline-block h-10 px-1" :class="w">
-        <div class="bg-background-gray text-primary-gray rounded-2xl transition-all duration-250 hover:bg-primary-black hover:text-white">
-            <p class="text-sm">{{title}}</p>
+    <div class="items-center text-center inline-block px-1" :class="w">
+        <div class="bg-background-gray h-10 text-primary-gray rounded-lg transition-all duration-250 hover:bg-primary-black hover:text-white">
+            <p class="text-sm py-2">{{title}}</p>
         </div>
     </div>
 </template>
