@@ -13,6 +13,10 @@
             <FoodType title="Japanese" w="w-32"/>
             <FoodType title="Healthy" w="w-32"/>
         </Carrousel>
+        <h1 class="mt-4 ml-5 font-semibold text-xl">{{title}}</h1>
+        <Carrousel class="mt-2">
+            <OfferFood/>
+        </Carrousel>
     </div>
 </template>
 
@@ -23,6 +27,8 @@ import ProfileIcon from '@/components/ProfileIcon.vue';
 import SearchBar from "@/components/SearchBar.vue";
 import Carrousel from '@/components/Carrousel.vue';
 import FoodType from '@/components/FoodType.vue';
+import OfferFood from '@/components/OfferFood.vue';
+
 
 const HomeView = defineComponent({
     components:{
@@ -30,7 +36,14 @@ const HomeView = defineComponent({
         ProfileIcon,
         SearchBar,
         Carrousel,
-        FoodType
+        FoodType,
+        OfferFood
+    },
+    setup(){
+        const title = "Popular";
+        const title2 = "Top of Week";
+
+        return{ title, title2 };
     }
 });
 
