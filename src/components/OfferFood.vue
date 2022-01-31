@@ -1,8 +1,12 @@
 <template>
-    <div>
-        <div class="w-36 h-53 items-center inline-block text-center bg-background-gray mt-1 rounded-lg">
-            <div class="absolute right-0"><i class="fas fa-heart text-secondary-black"></i></div>
+    <div class="w-36 h-52 items-center justify-center ml-5 text-center bg-background-gray mt-1 rounded-lg px-3 py-3">
+        <img src="~@/assets/img/food2.png" class="w-28 h-24 " alt="" />
+        <div class="">
+            <p class="text-primary-black text-md">Tacos</p>
+            <p class="text-secondary-black text-xs">Mexican Mortillo Tacos</p>
+            <p class="text-primary-black font-semibold">cash</p>
         </div>
+        
     </div>
 </template>
 
