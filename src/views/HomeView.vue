@@ -16,6 +16,9 @@
         <h1 class="mt-4 ml-5 font-semibold text-xl">{{title}}</h1>
         <Carrousel class="mt-2">
             <OfferFood title="Tacos" description="Mexican Tartillo Tacos" price="14.99" :image="require('@/assets/img/food2.png')"/>
+            <OfferFood title="Shrink Soap" description="Tasty Soap of Shrink" price="25.99" :image="require('@/assets/img/food1.png')"/>
+            <OfferFood title="Meat and fries" description="Cow Meat with Fries" price="20.99" :image="require('@/assets/img/food3.png')"/>
+            <OfferFood title="Meat and fries" description="Cow Meat with Fries" price="30.99" :image="require('@/assets/img/food4.png')"/>
         </Carrousel>
     </div>
 </template>

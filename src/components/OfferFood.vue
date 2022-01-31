@@ -1,5 +1,5 @@
 <template>
-    <div class="w-36 h-52 ml-5 text-center bg-background-gray mt-1 rounded-lg">
+    <div class="w-36 h-52 ml-5 text-center inline-block bg-background-gray mt-1 rounded-lg">
         <div class="flex justify-end"><i class="fas fa-heart text-secondary-black pt-2 pr-2"></i></div>
         <img v-bind:src="image" class="w-32 h-28 inline-flex" alt="Offer of day" />
         <p class="text-primary-black text-md font-medium">{{title}}</p>
