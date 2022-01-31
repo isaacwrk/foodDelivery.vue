@@ -18,6 +18,9 @@ module.exports = {
                 '17':'4.35rem' ,
                 '28.5':'7.5rm'
             },
+            height:{
+                '25':'6.5rem'
+            },
             fontSize:{
                 'xss':'.65rem'
             },
