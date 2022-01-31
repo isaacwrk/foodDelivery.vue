@@ -15,7 +15,7 @@
         </Carrousel>
         <h1 class="mt-4 ml-5 font-semibold text-xl">{{title}}</h1>
         <Carrousel class="mt-2">
-            <OfferFood/>
+            <OfferFood title="Tacos" description="Mexican Tartillo Tacos" price="14.99" :image="require('@/assets/img/food2.png')"/>
         </Carrousel>
     </div>
 </template>

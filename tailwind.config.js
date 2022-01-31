@@ -20,7 +20,7 @@ module.exports = {
             },
             fontSize:{
                 'xss':'.65rem'
-            }
+            },
         },
     },
     variants: {
