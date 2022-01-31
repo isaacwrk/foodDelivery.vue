@@ -20,6 +20,7 @@
             <OfferFood title="Meat and fries" description="Cow Meat with Fries" price="20.99" :image="require('@/assets/img/food3.png')"/>
             <OfferFood title="Meat and fries" description="Cow Meat with Fries" price="30.99" :image="require('@/assets/img/food4.png')"/>
         </Carrousel>
+        <h1 class="mt-4 ml-5 font-semibold text-xl">{{title2}}</h1>
     </div>
 </template>
 
