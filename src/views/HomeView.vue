@@ -21,7 +21,10 @@
             <OfferFood title="Meat and fries" description="Cow Meat with Fries" price="30.99" :image="require('@/assets/img/food4.png')"/>
         </Carrousel>
         <h1 class="mt-4 ml-5 font-semibold text-xl">{{title2}}</h1>
-        <TopOfWeek/>
+        <Carrousel>
+            <TopOfWeek title="Margherita Pizza" description="A truly italian pizza" readyIn="25-30"/>
+        </Carrousel>
+        
     </div>
 </template>
 
