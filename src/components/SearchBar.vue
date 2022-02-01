@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-1 mt-7 justify-items-start ml-5">
+    <div class="flex flex-1 mt-7 justify-items-start px-7">
         <div class="flex border-2 rounded-xl w-81 h-10">
             <button class="flex items-center justify-center px-4 pl-3">
                 <i :class="icon" class="text-gray-400"></i>
