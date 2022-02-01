@@ -1,6 +1,6 @@
 <template>
     <div class="h-25 ml-5 mt-3 bg-background-gray text-center rounded-lg mx-3 relative">
-        <img src="~@/assets/img/topofweek1.png" class="w-24 h-24 ml-3 object-contain" />
+        <img :src="image" class="w-24 h-24 ml-3 object-contain" />
         <div class="absolute right-5 top-4"><i class="fas fa-heart text-secondary-black"></i></div>
         <div class="absolute left-32 top-4 text-left">
             <p class="text-primary-black text-lg">{{title}}</p>
@@ -26,6 +26,10 @@ const TopOfWeek = defineComponent({
             required:true
         },
         readyIn:{
+            type:String,
+            required:true
+        },
+        image:{
             type:String,
             required:true
         }    

@@ -22,7 +22,7 @@
         </Carrousel>
         <h1 class="mt-4 ml-5 font-semibold text-xl">{{title2}}</h1>
         <Carrousel>
-            <TopOfWeek title="Margherita Pizza" description="A truly italian pizza" readyIn="25-30"/>
+            <TopOfWeek title="Margherita Pizza" description="A truly italian pizza" readyIn="25-30" :image="require('@/assets/img/topofweek1.png')"/>
         </Carrousel>
         
     </div>
