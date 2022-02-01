@@ -21,6 +21,7 @@
             <OfferFood title="Meat and fries" description="Cow Meat with Fries" price="30.99" :image="require('@/assets/img/food4.png')"/>
         </Carrousel>
         <h1 class="mt-4 ml-5 font-semibold text-xl">{{title2}}</h1>
+        <TopOfWeek/>
     </div>
 </template>
 
@@ -32,6 +33,7 @@ import SearchBar from "@/components/SearchBar.vue";
 import Carrousel from '@/components/Carrousel.vue';
 import FoodType from '@/components/FoodType.vue';
 import OfferFood from '@/components/OfferFood.vue';
+import TopOfWeek from '@/components/TopOfWeek.vue';
 
 
 const HomeView = defineComponent({
@@ -41,7 +43,8 @@ const HomeView = defineComponent({
         SearchBar,
         Carrousel,
         FoodType,
-        OfferFood
+        OfferFood,
+        TopOfWeek
     },
     setup(){
         const title = "Popular";
