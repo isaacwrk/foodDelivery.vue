@@ -19,11 +19,15 @@ module.exports = {
                 '28.5':'7.5rm'
             },
             height:{
-                '25':'6.5rem'
+                '25':'6.5rem',
+                '81':'22.5rem'
             },
             fontSize:{
                 'xss':'.65rem'
             },
+            borderRadius:{
+                '4xl':'2.5rem'
+            }
         },
     },
     variants: {
