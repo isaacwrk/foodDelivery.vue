@@ -1,7 +1,7 @@
 <template>
-    <div class="bg-background-gray rounded-md  flex w-28 h-14 text-2xl justify-center mx-2 py-2">
+    <div class="bg-background-gray rounded-xl flex w-28 h-14 text-2xl justify-between px-3 mx-2 py-2">
         <div class="text-primary-black" @click="decreaseCounter">-</div>
-        <div class="text-primary-black">{{counter}}</div>
+        <div class="text-primary-black text-xl">{{counter}}</div>
         <div class="text-primary-black" @click="increaseCounter">+</div>
     </div>
 </template>

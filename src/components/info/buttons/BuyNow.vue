@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-primary-black h-14 text-white">
+    <div class="bg-primary-black h-14 text-white w-48 text-center py-4 rounded-xl">
         Buy Now
     </div>
 </template>
