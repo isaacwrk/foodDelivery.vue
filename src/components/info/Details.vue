@@ -14,14 +14,23 @@
                 Proin quis pharetra enim. Cras vitae purus dignissim, lobortis massa sit amet, commodo libero. Curabitur vitae urna facilisis, rhoncus sem vitae.
             </p>
         </div>
-        
+        <div class="flex flex-1 justify-between">
+            <Counter/>
+            <BuyNow/>
+        </div>
     </div>
 </template>
 
 <script lang='ts'>
 import { defineComponent } from 'vue';
+import Counter from '@/components/info/buttons/Counter.vue';
+import BuyNow from '@/components/info/buttons/BuyNow.vue';
 
 const Details = defineComponent({
+    components:{
+        Counter,
+        BuyNow
+    }
 });
 
 export default Details;
