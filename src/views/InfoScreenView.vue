@@ -1,7 +1,8 @@
 <template>
-    <div>
+    <div class="relative">
         <ProductPhoto/>
         <Description/>
+        <Details/>
     </div>
  
 </template>
@@ -10,11 +11,13 @@
 import { defineComponent } from 'vue';
 import ProductPhoto from "@/components/info/ProductPhoto.vue";
 import Description from "@/components/info/Description.vue";
+import Details from "@/components/info/Details.vue";
 
 const InfoScreenView = defineComponent({
     components:{
         ProductPhoto,
-        Description
+        Description,
+        Details
     }
 });
 
